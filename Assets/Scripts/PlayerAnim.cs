@@ -15,9 +15,9 @@ public class PlayerAnim : MonoBehaviour
     private void Update()
     {
         if (!playerSpeed.isSprint)
-            _animator.SetFloat("RealSpeed", playerSpeed.stickDirection.magnitude / 2);
+            _animator.SetFloat("Speed", playerSpeed.stickDirection.magnitude / 2);
 
         else 
-            _animator.SetFloat("RealSpeed", playerSpeed.stickDirection.magnitude);
+            _animator.SetFloat("Speed", playerSpeed.stickDirection.magnitude);
     }
 }
