@@ -23,6 +23,7 @@ public class PlayerMove : MonoBehaviour
     public void OnMovePlayer(InputAction.CallbackContext obj)
     {
         stickDirection = obj.ReadValue<Vector2>();
+        Debug.Log(stickDirection);
     }
     public void OnSprintPlayer(InputAction.CallbackContext ctx)
     {
@@ -45,6 +46,7 @@ public class PlayerMove : MonoBehaviour
         moveDirection = moveDirectionLat + updateGravity;
         lastVelocity = moveDirection; 
         controller.Move(moveDirection * Time.deltaTime);
+        Debug.Log(moveDirection);
     }
     private Vector3 GravityVector()
     {

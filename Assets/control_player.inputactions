@@ -1,22 +1,30 @@
 {
-    "name": "controls_perso",
+    "name": "control_player",
     "maps": [
         {
             "name": "Player",
-            "id": "eed7f3a7-a5e3-4676-912a-7a1ca85880b4",
+            "id": "b382a418-4166-48d1-96c6-c470498fdaba",
             "actions": [
                 {
-                    "name": "New action",
-                    "type": "PassThrough",
-                    "id": "e538bb75-545f-43ef-adc1-78c8e2acc78b",
+                    "name": "walk",
+                    "type": "Value",
+                    "id": "229f939c-b675-4d96-8dbb-b00d65a825e0",
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": ""
                 },
                 {
-                    "name": "New action1",
+                    "name": "talk",
                     "type": "Button",
-                    "id": "39a59b25-c94c-4f57-9a97-ec619e912f47",
+                    "id": "1dcc315b-28e6-45b2-adcf-be624d6efe04",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "sprint",
+                    "type": "Button",
+                    "id": "f8afea9b-02a2-4ccf-8030-4a6b018b6060",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
@@ -24,79 +32,79 @@
             ],
             "bindings": [
                 {
-                    "name": "",
-                    "id": "a335ff98-c2bc-4272-a42e-ffd079669f7d",
-                    "path": "",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "New action",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
                     "name": "ZQSD",
-                    "id": "6b9852f1-4099-4ce8-a9c6-ad0404a8b429",
+                    "id": "ec7ab45f-837e-43b1-85d7-8798deaf7e01",
                     "path": "2DVector",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "New action",
+                    "action": "walk",
                     "isComposite": true,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "up",
-                    "id": "1cc29a87-79f2-4a4b-a482-3260b4de70e2",
+                    "id": "a805447f-ce19-4214-bfef-248bd1300777",
                     "path": "<Keyboard>/w",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "New action",
+                    "action": "walk",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
                 {
                     "name": "down",
-                    "id": "d2e24a19-5ae9-42c8-ac63-52458f596858",
+                    "id": "e6a0cdd6-8f63-4f25-958d-ccb3144d7c68",
                     "path": "<Keyboard>/s",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "New action",
+                    "action": "walk",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
                 {
                     "name": "left",
-                    "id": "b09a4186-71ca-4182-ad48-3ea7833a81f6",
+                    "id": "761eaf6d-e58f-4dcb-bc9d-8b37b7799952",
                     "path": "<Keyboard>/a",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "New action",
+                    "action": "walk",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
                 {
                     "name": "right",
-                    "id": "cf613652-a35c-4fe9-b084-df39fc1ee068",
+                    "id": "4a3ec914-34ed-41ec-a238-2855aacc7534",
                     "path": "<Keyboard>/d",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "New action",
+                    "action": "walk",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
                 {
                     "name": "",
-                    "id": "abf27a43-c3e4-4361-b158-d0ede425ca65",
-                    "path": "",
+                    "id": "f0f5eafb-f22c-4bd9-a310-b1df39c516a8",
+                    "path": "<Keyboard>/c",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "New action1",
+                    "action": "talk",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e7652f47-c412-467c-b7ba-5db9cb80fce3",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "sprint",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
