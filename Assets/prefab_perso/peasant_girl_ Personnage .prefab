@@ -1285,6 +1285,7 @@ GameObject:
   - component: {fileID: 1276382054583055087}
   - component: {fileID: -5240428815446740027}
   - component: {fileID: 4995579252210795852}
+  - component: {fileID: 3138135324206712115}
   m_Layer: 0
   m_Name: 'peasant_girl_ Personnage '
   m_TagString: Untagged
@@ -1476,6 +1477,21 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &3138135324206712115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5837956857850521853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c56de8f55661eb1459aadbe130ed5955, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textSpeed: 0
+  dialogLenght: 0
+  textIndex: 0
 --- !u!1 &5871573651098934003
 GameObject:
   m_ObjectHideFlags: 0
