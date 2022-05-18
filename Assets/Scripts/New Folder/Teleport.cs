@@ -60,7 +60,7 @@ public class Teleport : MonoBehaviour
         // On oriente l’avatar dans la direction du point de téléportation pour pas regarder le mur après le déplacement
         player.transform.rotation = endPoint.rotation;
         // On lance l’animation de disparition de l’écran de chargement
-        loadingAnimator.SetTrigger("Disappear");
+        loadingAnimator.SetTrigger("Disparition");
 
         Physics.SyncTransforms();
     }
