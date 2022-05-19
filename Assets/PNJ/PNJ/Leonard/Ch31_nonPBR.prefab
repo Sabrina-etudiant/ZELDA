@@ -1314,6 +1314,8 @@ GameObject:
   - component: {fileID: -1123251944278782780}
   - component: {fileID: -4234549092889640344}
   - component: {fileID: 7261023746849001055}
+  - component: {fileID: 1533377028}
+  - component: {fileID: 1533377027}
   m_Layer: 0
   m_Name: Ch31_nonPBR
   m_TagString: Untagged
@@ -1389,7 +1391,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!136 &7261023746849001055
 CapsuleCollider:
@@ -1401,10 +1403,40 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 1
+  m_Radius: 0.3
+  m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 1, z: 0}
+--- !u!136 &1533377028
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5432608528152840861}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 1.5
+  m_Height: 0.5
+  m_Direction: 1
+  m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &1533377027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5432608528152840861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8189a074de072a34fb0171f13a44f5f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogNumber: 0
+  onFirstDialog:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &5480115470703254299
 GameObject:
   m_ObjectHideFlags: 0

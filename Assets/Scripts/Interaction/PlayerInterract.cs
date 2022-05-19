@@ -35,13 +35,13 @@ public class PlayerInterract : MonoBehaviour
     public string ChangeDialogueOnNPC()
     {
         if (NPCID == 0)
-            return "Dégage, c'est pas ta maison fils de...";
+            return "Je suis le roi du monde ";
         if (NPCID == 1)
-            return "On peut devenir amis que si tu me donne ton argent";
+            return "Supercalifragilisticexpialidocious";
         if (NPCID == 2)
-            return "Sort un peu et fait toi des amis au lieu de rien faire";
+            return "Tu connais la différence entre toi et moi, MOI je suis magnifique!!!";
         if (NPCID == 3)
-            return "Me parle pas. Regarde les texures de ma maison";
+            return "C'est à moi que tu parle";
         return "L'ID N'est pas reconnue";
     }
 }
